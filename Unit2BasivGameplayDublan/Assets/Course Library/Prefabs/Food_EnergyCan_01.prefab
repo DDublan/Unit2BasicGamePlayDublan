@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3043124727561693912}
   - component: {fileID: 9200011004290451316}
   - component: {fileID: 3526313532848624854}
+  - component: {fileID: 3876196322792113979}
+  - component: {fileID: 3957445772465156436}
   m_Layer: 0
   m_Name: Food_EnergyCan_01
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3654825989268519395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 1.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -83,3 +85,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3876196322792113979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654825989268519395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cc656bc36777d4f900288b757c9120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3957445772465156436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654825989268519395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d4cc1ccc148ae46b02f614544b156d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
