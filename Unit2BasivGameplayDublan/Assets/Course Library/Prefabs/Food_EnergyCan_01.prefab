@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 3043124727561693912}
   - component: {fileID: 9200011004290451316}
   - component: {fileID: 3526313532848624854}
-  - component: {fileID: 3876196322792113979}
   - component: {fileID: 3957445772465156436}
+  - component: {fileID: 7928340074579084868}
+  - component: {fileID: 2186003935050452403}
+  - component: {fileID: -2281136731885037007}
   m_Layer: 0
   m_Name: Food_EnergyCan_01
   m_TagString: Untagged
@@ -85,18 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3876196322792113979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654825989268519395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15cc656bc36777d4f900288b757c9120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3957445772465156436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,4 +99,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d4cc1ccc148ae46b02f614544b156d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 35
+--- !u!54 &7928340074579084868
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654825989268519395}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2186003935050452403
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654825989268519395}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.19234496, y: 0.4928414, z: 0.190015}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2281136731885037007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654825989268519395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac79e077d4a4d446a8b75fade6a967f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
